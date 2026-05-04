@@ -1,10 +1,10 @@
-## Office Prank
+# Office Prank
 
 A small script that drops an audio file and a few helper scripts on the computer where it is run, the goal being playinga headless audio file in the background to annoy friends and colleagues. 
 Depending on the option you choose it can either run instantly on startup, run after a set time interval or it can be scheduled to run once a month at random (persistence).
 The timed scripts are not persistent, they clean up after themselves once run.
 
-# The One-Time Performance
+## One time run
 
 ## 📂 Filepaths & Structure
 To deploy, ensure these files are in the same folder before running the initiator:
@@ -25,7 +25,7 @@ To deploy, ensure these files are in the same folder before running the initiato
 ## 🛡️ Stealth Note
 The script finishes the audio playback from the system RAM even after the physical `.vbs` file is deleted from the disk.
 
-# The Monthly Residency
+## Monthly run
 
 ## 📂 Filepaths & Structure
 Maintain these three files in your deployment folder:
