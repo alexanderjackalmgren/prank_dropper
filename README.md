@@ -1,3 +1,9 @@
+## Office Prank
+
+A small script that drops an audio file and a few helper scripts on the computer where it is run, the goal being playinga headless audio file in the background to annoy friends and colleagues. 
+Depending on the option you choose it can either run instantly on startup, run after a set time interval or it can be scheduled to run once a month at random (persistence).
+The timed scripts are not persistent, they clean up after themselves once run.
+
 # The One-Time Performance
 
 ## 📂 Filepaths & Structure
@@ -12,9 +18,9 @@ To deploy, ensure these files are in the same folder before running the initiato
 
 ## 🚀 Execution Flow
 1. **The Drop:** Run `setup.bat` as Administrator.
-2. **The Disappearance:** `setup.bat` immediately deletes itself.
+2. **Setup Cleanup:** `setup.bat` immediately deletes itself.
 3. **The Performance:** On next login, `SystemCheck.bat` fires the VBS into memory.
-4. **The Purge:** `SystemCheck.bat` and `AdobeUpdater.vbs` delete themselves within 2 seconds. 
+4. **Script Cleanup:** `SystemCheck.bat` and `AdobeUpdater.vbs` delete themselves within 2 seconds. 
 
 ## 🛡️ Stealth Note
 The script finishes the audio playback from the system RAM even after the physical `.vbs` file is deleted from the disk.
